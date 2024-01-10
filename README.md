@@ -6,14 +6,9 @@
 在此基础上，提出了新的网络层结构bn+FwSS+weights+f(·)，搭建了新神经网络模型FwSSNet
 # 环境搭建
 
-
-** `pip`:**
-
 ```bash
 pip install -r requirements.txt
 ```
-
-
 
 # 运行说明
 
@@ -26,9 +21,10 @@ python train.py
 ```bash
 bash FCNNs_批量脚本运行.sh
 ```
-##训练CNNs
-###vgg
+## 训练CNNs
+### vgg
 修改CNNs/vgg/config_vggnet.py配置文件
+
 ```python3
 python train_vggnet.py
 ```
@@ -36,12 +32,13 @@ python train_vggnet.py
 ```bash
 bash vgg_批量脚本运行.sh
 ```
-###训练ResNets
+### 训练ResNets
 修改CNNs/ResNets/config.py配置文件
+
 ```python3
 python train.py
 ```
 脚本运行
 ```bash
-bash resnets__批量脚本运行.sh
+bash resnets_批量脚本运行.sh
 ```
