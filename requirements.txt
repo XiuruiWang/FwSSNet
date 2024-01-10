@@ -1,0 +1,7 @@
+tensorflow-gpu==1.14.0
+scipy
+matplotlib
+pyyaml
+opencv-python==3.3.0.10
+pandas
+tqdm
