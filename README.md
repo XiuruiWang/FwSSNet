@@ -12,8 +12,10 @@ pip install -r requirements.txt
 
 # 运行说明
 
-##训练FCNNs
+###  训练FCNNs
+
 修改FCNNs/config中对应数据集配置文件为config.py
+
 ```python3
 python train.py
 ```
